@@ -65,3 +65,10 @@ let result4 = myObject.myFunctionProperty('hello'); // result4 would be set to t
 
 // Below are some examples of calling the function on our myObject object by where the 2nd parameter IS being passed, and so what gets logged to the console will vary.
 let result5 = myObject.myFunctionProperty('hello', null); // result5 would be set to the string 'got hello' AND the console will have the string 'myParameter2 was null' logged
+
+// Below is a function that demonstrates a for loop
+const myFunctionWithForLoop = () => {
+    for (let i = 0; i <= 10; i++) {
+        console.log('The value of i is', i);
+    }
+};
