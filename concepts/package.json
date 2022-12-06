@@ -1,0 +1,15 @@
+{
+    "name": "vehicles",
+    "version": "1.0.0",
+    "description": "",
+    "main": "vehicles.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "http-server ./ --port 8087 -c-1 --cors"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "http-server": "^14.1.1"
+    }
+  }
